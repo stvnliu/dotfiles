@@ -1,0 +1,13 @@
+[user]
+	email = imsonmia@outlook.com
+	name = Zhongheng Liu
+	signingkey = /home/zliu/.ssh/id_ed25519.pub
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = main
